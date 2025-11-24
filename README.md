@@ -9,9 +9,9 @@ A fun, interactive Hangman game built with **React.js**, featuring a dark-themed
 
 Follow these steps to set up and run the game locally:
 
-1. **Open your terminal** and navigate to your project folder:
+1. **Open your terminal** and navigate to the hangman folder:
    ```bash
-   cd your-project-folder
+   cd Hangman
 
 
 - Install all dependencies (if you haven’t already):
@@ -73,28 +73,6 @@ HangmanGame.js - The parent component controlling all game logic, state manageme
 LetterBox.js - Child component displaying each alphabet letter, color-coded based on correctness.
 SingleLetterSearchBar.js - Child component that allows the player to input a single letter guess.
 App.css - Contains all styling, including layout centering, button styling, and theme colors.
-🛠️ Customization
-
-You can easily customize the game:
-
-Update or expand the word list in HangmanGame.js.
-
-Replace or add new images for the hangman in your /src directory.
-
-Modify the color scheme in App.css to fit your personal style.
-
-💡 Quick Tips
-
-Ensure all hangman images (noose.png, head.png, body.png, etc.) are in the correct folder.
-
-Each image should visually represent one stage of the hangman’s progression.
-
-To restart the project cleanly, you can clear the build cache:
-
-npm run clean
-
-
-then rerun npm start.
 
 📂 File Structure
 /src
@@ -105,4 +83,4 @@ then rerun npm start.
  ├── index.js
  └── index.css
 
-✨ Enjoy the game and happy coding!
+✨ Enjoy the game!
