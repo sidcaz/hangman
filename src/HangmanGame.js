@@ -34,7 +34,7 @@ class HangmanGame extends React.Component {
     const word = this.state.wordList[this.state.curWord];
     return(
       <div>
-        <img src={pics[this.state.lifeLeft]}/>
+        <img src={pics[this.state.lifeLeft]} alt={`Hangman stage ${this.state.lifeLeft}`}/>
         <button onClick={this.startNewGame}>New Game</button>
         <p>{word}</p>
         <SingleLetterSearchbar></SingleLetterSearchbar>
